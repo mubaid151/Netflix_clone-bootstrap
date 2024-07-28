@@ -1,0 +1,274 @@
+/* hassan section */
+.background-image {
+    background-image: url('./images/PK-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9518779d-a814-4eb7-9722-f5f5b1854cdd_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.form-control{
+    padding-top: 30px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+    /* height: 100vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0; */
+}
+
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+    color: white;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+.get-started-btn {
+    border-radius: 0 4px 4px 0;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2 0px 30px;
+    width: 200px;
+    height: 40px;
+}
+
+.form-wrapper {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+
+
+
+
+
+/* saad section */
+.partition{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+}
+
+.partition-heading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+
+.partition2{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+}
+
+.partition-heading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+
+.partition3{
+    height: 50vh;
+    /* width: 100%; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+    margin-right: 480px;
+
+    
+
+}
+
+.partition-heading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.partition4{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+}
+
+.partition-heading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.partition-img1{
+    position: relative;
+}
+
+.partition-img1 img{
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+    
+    
+}
+
+ .partition-img1 video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+} 
+
+/* ubaid section */
+/* faq section */
+.faq-section h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem; 
+}
+.faq-section button{
+    color: #fff;
+     font-weight: 400;
+    font-size: 24px;
+}
+.faq-section .accordion{
+    --bs-accordion-color: rgb(255, 255, 255);
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius: none;
+
+}
+.faq-section .accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.faq-section .accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.faq-section .accordion-button:hover{
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.faq-section .accordion-button::after{
+    content: "+";
+    position: absolute;
+    background-image: none;
+    font-size: 50px;
+    right: 45px;
+    top: 5px;
+    height: 30px;
+}
+.faq-section .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    transform: none;
+    content: "⌄";
+}
+
+.separation {
+    height: 9px;
+    background-color: rgb(59, 59, 59);
+    z-index: 20;
+}
+
+/* irfan section */
+body {
+    background-color: black;
+    color: white;
+}
+.footer {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #ffffff;
+    background-color: #181818;
+}
