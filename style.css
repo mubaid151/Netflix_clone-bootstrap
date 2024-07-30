@@ -1,0 +1,288 @@
+/* hassan section */
+
+.background-image {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/e86a75da-ce78-4129-9e7d-c056f1c3363b/US-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_e46f05a7-c909-4aaf-9e3c-c832bbca606c_small.jpg');
+    background-size: cover;
+    /* opacity:0.3; */
+    /* background-color:white; */
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+
+.form-control {
+    padding-top: 30px;
+    height: 60px;
+}
+
+.overlay {
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+    color: white;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+.get-started-btn {
+    border-radius: 0 4px 4px 0;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2 0px 30px;
+    width: 200px;
+    height: 60px;
+}
+
+.form-wrapper {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar-brand {
+    padding-left: 110px;
+}
+.signin-btn{
+    padding-right: 100px;
+}
+
+
+
+/* saad section */
+.partition{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+}
+
+.partition-heading h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.partition2{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+}
+
+.partition-heading h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.partition-img2 img{
+    font-size: 16px;
+    font-weight: 400;
+   
+
+}
+
+
+.partition3{
+    height: 60vh;
+    /* width: 100%; */
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+    
+
+}
+
+.partition-heading h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.partition4{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+
+}
+
+.partition-heading h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.partition-heading p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.partition-img4 img{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.partition-img1{
+    position: relative;
+}
+
+.partition-img1 img{
+    width: 555px;
+    z-index: 10;
+    position: relative;
+     font-size: 16px;
+     font-weight: 400;
+    
+}
+
+ .partition-img1 video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+} 
+
+/* ubaid section */
+.faq-section h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem; 
+}
+.faq-section button{
+    color: #fff;
+     font-weight: 400;
+    font-size: 24px;
+}
+.faq-section .accordion{
+    --bs-accordion-color: rgb(255, 255, 255);
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius: none;
+
+}
+.faq-section .accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.faq-section .accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.faq-section .accordion-button:hover{
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+.faq-section .accordion-button::after{
+    content: "+";
+    position: absolute;
+    background-image: none;
+    font-size: 50px;
+    right: 45px;
+    top: 5px;
+    height: 30px;
+}
+.faq-section .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    transform: none;
+    content: "⌄";
+}
+
+
+/* irfan section */
+
+body {
+    background-color: black;
+    color: white;
+}
+.footer {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #ffffff;
+    background-color: #181818;
+}
